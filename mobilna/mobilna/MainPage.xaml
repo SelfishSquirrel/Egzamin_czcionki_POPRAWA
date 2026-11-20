@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="mobilna.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25"
+            Margin="20">
+
+            <Label Background="#558B2F" TextColor="White" FontSize="40" FontAttributes="Bold">Wlasciwosci czcionki</Label>
+            <Label x:Name="Rozmiar" TextColor="Black" FontSize="20">Rozmiar</Label>
+            <Slider x:Name="SliderBar" ThumbColor="Cyan" Minimum="0" Maximum="40" ValueChanged="SliderBar_ValueChanged"/>
+            <Label x:Name="Cytat" TextColor="Black">Dzien Dobry</Label>
+            <Button Text=">>" Clicked="Button_Clicked" Background="#558B2F" HorizontalOptions="Center" FontAttributes="Bold">
+            </Button>
+            
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
